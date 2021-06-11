@@ -36,15 +36,17 @@
 <div>
 	<table>
          <tbody>
-            <tr><td>이름 </td><td>$"name"</td> </tr>
-            <tr><td>avg </td><td><input type="number" name="kor" required></td> </tr>
-            <tr><td>sum </td><td><input type="number" name="eng" required></td> </tr>
-            <tr><td>hak </td><td><input type="number" name="math" required></td> </tr>
-         </tbody>
-         <tfoot>
-            <tr><td colspan="2"><input type="submit" value="성적확인"></td></tr>
-         </tfoot>
-      </table>
+         <li> 이름: ${name } </li>
+         <li> 국어: ${kor } </li>
+         <li> 수학: ${math } </li>
+         <li> 영어: ${eng } </li>
+         <li> 총점: ${sum } </li>
+         <li> 평균: ${avg } </li>
+         <li> 학점: ${hak } </li>
+         
+         
+          </tbody>
+         </table>
 
 </div>
 
